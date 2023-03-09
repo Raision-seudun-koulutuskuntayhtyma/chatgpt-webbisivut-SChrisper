@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sivusto</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Inconvenience Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
+    <header>
+      <h1>The Inconvenience Store</h1>
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We're not your typical convenience store. At The Inconvenience Store, we specialize in carrying products that are just a little bit off. From expired snacks to slightly damaged electronics, we have it all.</p>
+      </section>
+      <section id="products">
+        <h2>Our Products</h2>
+        <ul>
+          <li>
+            <h3>Expired Snacks</h3>
+            <p>Who says you can't enjoy a bag of chips that's a few weeks past its expiration date?</p>
+          </li>
+          <li>
+            <h3>Slightly Damaged Electronics</h3>
+            <p>Our electronics might have a scratch or two, but they still work just fine.</p>
+          </li>
+          <li>
+            <h3>Off-Brand Cleaning Supplies</h3>
+            <p>Why spend more money on name-brand cleaning products when you can get the same thing for less?</p>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or comment? Get in touch with us!</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; The Inconvenience Store 2023</p>
+    </footer>
   </body>
 </html>
